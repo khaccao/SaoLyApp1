@@ -3,7 +3,11 @@ import type { ReactNode } from 'react';
 import type { TextProps, GestureResponderEvent } from 'react-native';
 
 export namespace ExpoRouter {
+<<<<<<< Updated upstream
   type StaticRoutes = `/` | `/(tabs)` | `/_sitemap` | `/explore` | `/khoahoc` | `/login` | `/login2`;
+=======
+  type StaticRoutes = `/` | `/(tabs)` | `/_sitemap` | `/explore` | `/khoahoc` | `/khoahocdangki` | `/login` | `/login2`;
+>>>>>>> Stashed changes
   type DynamicRoutes<T extends string> = never;
   type DynamicRouteTemplate = never;
 
